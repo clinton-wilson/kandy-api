@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Mona Haag",
+      "email": "mona@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Ms. Amos Deckow",
+      "email": "amos@deckownow.net",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Aaron Kuphal",
+      "email": "aaron@kuphaltheway.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Adrienne Daniel",
+      "email": "adrienne@dayumdaniel.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Levi Fay",
+      "email": "levi@faykittilyoumaykit.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Claire Kerluke Jr.",
+      "email": "mynameisclaire@itsamansnametoo.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyaltyNum": 47368,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "loyaltyNum": 10937,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "loyaltyNum": 29846,
+      "userId": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "fullName": "Mona Haag",
+      "email": "mona@gmail.com",
+      "isStaff": true,
+      "startDate": "Mon Mar 21 2022 11:32:08 GMT-0500 (Central Daylight Time)",
+      "payRate": "$12/hour"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "fullName": "Aaron Kuphal",
+      "email": "aaron@kuphaltheway.com",
+      "isStaff": true,
+      "startDate": "Wed Sep 08 2021 06:15:41 GMT-0500 (Central Daylight Time)",
+      "payRate": "$13/hour"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "fullName": "Adrienne Daniel",
+      "email": "adrienne@dayumdaniel.com",
+      "isStaff": true,
+      "startDate": "Tue Jul 06 2021 16:53:53 GMT-0500 (Central Daylight Time)",
+      "payRate": "$13.30/hour"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Midtown",
+      "address": "4744 Fahey Camp",
+      "sqFootage": 1500
+    },
+    {
+      "id": 2,
+      "name": "Uptown",
+      "address": "550 Pfannerstill Streets",
+      "sqFootage": 3000
+    },
+    {
+      "id": 3,
+      "name": "Westside",
+      "address": "918 Joelle Well",
+      "sqFootage": 1200
+    },
+    {
+      "id": 4,
+      "name": "Downtown",
+      "address": "36983 Lawson Canyon",
+      "sqFootage": 3500
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gummies"
+    },
+    {
+      "id": 3,
+      "type": "Candy bar"
+    },
+    {
+      "id": 4,
+      "type": "Chocolate"
+    },
+    {
+      "id": 5,
+      "type": "Sour candy"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Smarties",
+      "price": 0.5,
+      "productTypeId": 5
+    },
+    {
+      "id": 2,
+      "name": "Snickers",
+      "price": 2.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 3,
+      "name": "M&Ms",
+      "price": 1.99,
+      "productTypeId": 4
+    },
+    {
+      "id": 4,
+      "name": "Skittles",
+      "price": 2.5,
+      "productTypeId": 5
+    },
+    {
+      "id": 5,
+      "name": "Gummie Worms",
+      "price": 0.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 6,
+      "name": "Werther's",
+      "price": 1.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 7,
+      "name": "Gummie Bears",
+      "price": 0.99,
+      "productTypeId": 2
+    },
+    {
+      "name": "Nerd Rope",
+      "productTypeId": 2,
+      "price": 2.99,
+      "id": 8
+    },
+    {
+      "name": "Sour Skittles",
+      "productTypeId": 5,
+      "price": 2.99,
+      "id": 9
+    }
+  ],
+  "purchases": []
+}
